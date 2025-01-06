@@ -6,6 +6,23 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B39460442D267D45007607E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B394603B2D267D45007607E3 /* AppDelegate.swift */; };
+		B39460452D267D45007607E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B394603C2D267D45007607E3 /* SceneDelegate.swift */; };
+		B39460462D267D45007607E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B394603D2D267D45007607E3 /* ViewController.swift */; };
+		B39460472D267D45007607E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B394603F2D267D45007607E3 /* Assets.xcassets */; };
+		B39460492D267D45007607E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B39460422D267D45007607E3 /* LaunchScreen.storyboard */; };
+		B394604B2D2683D9007607E3 /* HomeMdeols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B394604A2D2683D9007607E3 /* HomeMdeols.swift */; };
+		B394604E2D268415007607E3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B394604D2D268415007607E3 /* HomeView.swift */; };
+		B39460512D26842C007607E3 /* HomeViewModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39460502D26842C007607E3 /* HomeViewModels.swift */; };
+		B39460542D26847B007607E3 /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39460532D26847B007607E3 /* HomeController.swift */; };
+		B39460572D2684CB007607E3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39460562D2684CB007607E3 /* NetworkManager.swift */; };
+		B394605A2D26850A007607E3 /* controller+exten.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39460592D26850A007607E3 /* controller+exten.swift */; };
+		B394605D2D268531007607E3 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B394605C2D268531007607E3 /* Utilities.swift */; };
+		B39460612D268B16007607E3 /* ApiTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39460602D268B16007607E3 /* ApiTarget.swift */; };
+		B39460632D268F35007607E3 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39460622D268F35007607E3 /* NetworkError.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B394601D2D267BE1007607E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,27 +44,24 @@
 		B39460062D267BE1007607E3 /* ProjectName.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjectName.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B394601C2D267BE1007607E3 /* ProjectNameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectNameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B39460262D267BE1007607E3 /* ProjectNameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProjectNameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B394603B2D267D45007607E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B394603C2D267D45007607E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B394603D2D267D45007607E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B394603F2D267D45007607E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B39460402D267D45007607E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B39460412D267D45007607E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B394604A2D2683D9007607E3 /* HomeMdeols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMdeols.swift; sourceTree = "<group>"; };
+		B394604D2D268415007607E3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B39460502D26842C007607E3 /* HomeViewModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModels.swift; sourceTree = "<group>"; };
+		B39460532D26847B007607E3 /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		B39460562D2684CB007607E3 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B39460592D26850A007607E3 /* controller+exten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "controller+exten.swift"; sourceTree = "<group>"; };
+		B394605C2D268531007607E3 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		B39460602D268B16007607E3 /* ApiTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiTarget.swift; sourceTree = "<group>"; };
+		B39460622D268F35007607E3 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B394602E2D267BE1007607E3 /* Exceptions for "ProjectName" folder in "ProjectName" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = B39460052D267BE1007607E3 /* ProjectName */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		B39460082D267BE1007607E3 /* ProjectName */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				B394602E2D267BE1007607E3 /* Exceptions for "ProjectName" folder in "ProjectName" target */,
-			);
-			path = ProjectName;
-			sourceTree = "<group>";
-		};
 		B394601F2D267BE1007607E3 /* ProjectNameTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ProjectNameTests;
@@ -88,7 +102,7 @@
 		B3945FFD2D267BE1007607E3 = {
 			isa = PBXGroup;
 			children = (
-				B39460082D267BE1007607E3 /* ProjectName */,
+				B39460432D267D45007607E3 /* ProjectName */,
 				B394601F2D267BE1007607E3 /* ProjectNameTests */,
 				B39460292D267BE1007607E3 /* ProjectNameUITests */,
 				B39460072D267BE1007607E3 /* Products */,
@@ -105,6 +119,92 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B39460432D267D45007607E3 /* ProjectName */ = {
+			isa = PBXGroup;
+			children = (
+				B394604C2D2683E5007607E3 /* Models */,
+				B394604F2D268418007607E3 /* Views */,
+				B39460522D26842F007607E3 /* ViewModels */,
+				B39460552D26847E007607E3 /* Controllers */,
+				B39460582D2684CE007607E3 /* Networking */,
+				B394605B2D268510007607E3 /* Extensions */,
+				B394605E2D268535007607E3 /* Utilities */,
+				B394605F2D26855B007607E3 /* Tests */,
+				B394603B2D267D45007607E3 /* AppDelegate.swift */,
+				B394603C2D267D45007607E3 /* SceneDelegate.swift */,
+				B394603D2D267D45007607E3 /* ViewController.swift */,
+				B394603F2D267D45007607E3 /* Assets.xcassets */,
+				B39460402D267D45007607E3 /* Info.plist */,
+				B39460422D267D45007607E3 /* LaunchScreen.storyboard */,
+			);
+			path = ProjectName;
+			sourceTree = "<group>";
+		};
+		B394604C2D2683E5007607E3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B394604A2D2683D9007607E3 /* HomeMdeols.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B394604F2D268418007607E3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B394604D2D268415007607E3 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B39460522D26842F007607E3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B39460502D26842C007607E3 /* HomeViewModels.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B39460552D26847E007607E3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B39460532D26847B007607E3 /* HomeController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B39460582D2684CE007607E3 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				B39460562D2684CB007607E3 /* NetworkManager.swift */,
+				B39460602D268B16007607E3 /* ApiTarget.swift */,
+				B39460622D268F35007607E3 /* NetworkError.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B394605B2D268510007607E3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B39460592D26850A007607E3 /* controller+exten.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B394605E2D268535007607E3 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B394605C2D268531007607E3 /* Utilities.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B394605F2D26855B007607E3 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -119,9 +219,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				B39460082D267BE1007607E3 /* ProjectName */,
 			);
 			name = ProjectName;
 			packageProductDependencies = (
@@ -225,6 +322,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B39460472D267D45007607E3 /* Assets.xcassets in Resources */,
+				B39460492D267D45007607E3 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +348,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B394604B2D2683D9007607E3 /* HomeMdeols.swift in Sources */,
+				B39460442D267D45007607E3 /* AppDelegate.swift in Sources */,
+				B39460452D267D45007607E3 /* SceneDelegate.swift in Sources */,
+				B394605A2D26850A007607E3 /* controller+exten.swift in Sources */,
+				B39460612D268B16007607E3 /* ApiTarget.swift in Sources */,
+				B39460572D2684CB007607E3 /* NetworkManager.swift in Sources */,
+				B39460512D26842C007607E3 /* HomeViewModels.swift in Sources */,
+				B394604E2D268415007607E3 /* HomeView.swift in Sources */,
+				B39460542D26847B007607E3 /* HomeController.swift in Sources */,
+				B39460632D268F35007607E3 /* NetworkError.swift in Sources */,
+				B394605D2D268531007607E3 /* Utilities.swift in Sources */,
+				B39460462D267D45007607E3 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +391,17 @@
 			targetProxy = B39460272D267BE1007607E3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B39460422D267D45007607E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B39460412D267D45007607E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B39460302D267BE1007607E3 /* Debug */ = {
